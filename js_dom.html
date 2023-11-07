@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Basics</title>
+</head>
+<body>
+
+    <h1>JS DOM-Manipulation</h1>
+    <p>Lorem ipsum dolor sit.</p>
+
+    <!-- ul>li{Listenpunkt $} -->
+    <ul>
+        <li>Listenpunkt 1</li>
+        <li>Listenpunkt 2</li>
+        <li>Listenpunkt 3</li>
+        <li>Listenpunkt 4</li>
+    </ul>
+
+    <script>
+
+        // Element auswaehlen
+        let firstli = document.querySelector('li');
+        firstli.textContent = 'Ich wurde manipuliert';
+
+        const list = document.querySelector('ul').children[2];
+        list.classList.add('warning');
+
+
+        console.log(list);
+
+    </script>
+    
+</body>
+</html>
