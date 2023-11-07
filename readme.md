@@ -2,7 +2,7 @@ Unterricht am 07.11.2023
 ## Webprog
 
 ### Inhalt Vormittag
-- Wiederholung Javascript Basics
+- Wiederholung Javascript Basics 👍
 - Browser APIs (DOM)
 - HTML Manipulation
 
